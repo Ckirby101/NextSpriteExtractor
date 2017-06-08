@@ -59,6 +59,7 @@ namespace NextSpriteExtractor
 		public static bool ParseSettingsData(string datafile)
 		{
 			dicdata.Clear();
+			names.Clear();
 
 			//get a array of lines, remove mac end of line characters
 			string[] data = datafile.Replace("\r", "").Split('\n');
